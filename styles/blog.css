@@ -1,0 +1,231 @@
+/* stylelint-disable selector-list-comma-newline-after */
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+#login-top {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+.icon-media {
+  display: none;
+}
+
+#wt-icon {
+  display: block;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.p-2 {
+  text-decoration: none;
+}
+
+.p-2:hover {
+  color: #fab89d;
+}
+
+.banner {
+  background-image: url(./images/cejas-microblading-fluyen-salon-belleza_231208-3521.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -50px;
+  background-position-y: 0px;
+}
+
+.type {
+  font-size: small;
+  font-family: "Playfair Display", Georgia, "Times New Roman";
+}
+
+.type .stretched-link {
+  color: gray;
+  text-decoration: none;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.h-250 {
+  height: 250px;
+}
+
+.col-auto {
+  margin: 0px auto 10px auto;
+}
+
+.col-auto img {
+  border-radius: 2px;
+}
+
+#social-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px 20px 20px 20px;
+}
+
+#social-bottom .icon-media-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35px;
+  height: 35px;
+  margin: 0 15px;
+}
+
+@media (min-width: 768px) {
+  .blog-header-logo {
+    font-size: 3rem;
+  }
+  .icon-media {
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 0 15px;
+  }
+  #social-bottom {
+    display: none;
+  }
+  #login-top {
+    display: block;
+  }
+  .h-md-250 {
+    height: 250px;
+  }
+  .nav-scroller {
+    margin: 0px 10%;
+    border-style: none;
+  }
+  .nav-scroller .p-2 {
+    font-size: 22px;
+  }
+  .banner {
+    background-image: url(./images/maquillaje-permanente-cejas_99689-153.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background-position-x: 0px;
+    background-position-y: -100px;
+  }
+  .banner .bannertext {
+    width: 350px;
+    color: white;
+  }
+  .type {
+    font-size: large;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+   * Blog posts
+   */
+.blog-post {
+  margin-bottom: 4rem;
+}
+
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+/*
+   * Footer
+   */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=blog.css.map */
