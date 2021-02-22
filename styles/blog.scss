@@ -6,12 +6,20 @@
     font-size: 2.25rem;
 }
 
+.membrete {
+    justify-content: center!important;
+    margin: 0;
+}
+
 .blog-header-logo:hover {
     text-decoration: none;
 }
 
 #login-top {
     display: none;
+    a {
+        display: none;
+    }
 }
 
 h1,
@@ -35,10 +43,6 @@ h6 {
 // }
 .icon-media {
     display: none;
-}
-
-#wt-icon {
-    display: block;
 }
 
 .nav-scroller {
@@ -78,6 +82,9 @@ h6 {
     background-size: cover;
     background-position-x: -50px;
     background-position-y: 0px;
+    .bannertext {
+        color: navy;
+    }
 }
 
 .type {
@@ -124,6 +131,9 @@ h6 {
 }
 
 @media (min-width: 768px) {
+    .membrete {
+        justify-content: space-between!important;
+    }
     .blog-header-logo {
         font-size: 3rem;
     }
