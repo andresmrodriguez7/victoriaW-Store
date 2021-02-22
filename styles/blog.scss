@@ -137,17 +137,20 @@ h6 {
     .blog-header-logo {
         font-size: 3rem;
     }
-    .icon-media {
+    #login-top {
         display: block;
-        width: 35px;
-        height: 35px;
-        margin: 0 15px;
+        a {
+            display: block;
+            .icon-media {
+                display: block;
+                width: 35px;
+                height: 35px;
+                margin: 0 15px;
+            }
+        }
     }
     #social-bottom {
         display: none;
-    }
-    #login-top {
-        display: block;
     }
     .h-md-250 {
         height: 250px;
