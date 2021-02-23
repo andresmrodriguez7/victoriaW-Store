@@ -90,7 +90,7 @@ h6 {
 }
 
 .banner .bannertext {
-  color: navy;
+  color: transparent;
 }
 
 .type {
@@ -154,7 +154,6 @@ h6 {
     -webkit-box-pack: justify !important;
         -ms-flex-pack: justify !important;
             justify-content: space-between !important;
-    margin: 0 !important;
   }
   .blog-header-logo {
     font-size: 3rem;
