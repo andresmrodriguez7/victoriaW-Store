@@ -20,7 +20,7 @@
         var $flake = $('<div id="flake" />').css({ 'position': 'absolute', 'top': '-50px' }).html('&#9898;'),
             documentHeight = $(document).height(),
             documentWidth = $(document).width(),
-            defaults = { minSize: 10, maxSize: 20, newOn: 500, flakeColor: "#FFFFFF" },
+            defaults = { minSize: 5, maxSize: 15, newOn: 500, flakeColor: "#FFFFFF" },
             options = $.extend({}, defaults, options);
         var interval = setInterval(function() {
             var startPositionLeft = Math.random() * documentWidth - 100,
