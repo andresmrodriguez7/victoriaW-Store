@@ -1,5 +1,10 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
+body {
+    background-color: rgba(252, 210, 192, 0.7);
+    margin: 0;
+}
+
 .blog-header-logo {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     ;
@@ -71,6 +76,7 @@ h6 {
 
 .p-2 {
     text-decoration: none;
+    color: black;
     &:hover {
         color: #fab89d;
     }
