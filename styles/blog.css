@@ -1,7 +1,12 @@
 /* stylelint-disable selector-list-comma-newline-after */
 body {
-  background-color: rgba(252, 210, 192, 0.7);
+  background-color: rgba(255, 129, 124, 0.5);
   margin: 0;
+}
+
+.blog-footer {
+  border-top: 0 !important;
+  background-color: #ffbfbd !important;
 }
 
 .blog-header-logo {
@@ -16,8 +21,13 @@ body {
   margin: 0;
 }
 
-.blog-header-logo:hover {
+.membrete .logotext {
   text-decoration: none;
+  color: black;
+}
+
+.blog-header-logo:hover {
+  text-shadow: 0 0 30px #fff;
 }
 
 #login-top {
@@ -126,6 +136,25 @@ h6 {
   border-radius: 2px;
 }
 
+.col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.col-lg-4 h2 {
+  font-weight: 400;
+}
+
+.tip {
+  background-color: #fab89d;
+}
+
+/* rtl:begin:ignore */
 #social-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -170,7 +199,7 @@ h6 {
     height: 35px;
     margin: 0 15px;
   }
-  #social-bottom {
+  #social-bottom a {
     display: none;
   }
   .h-md-250 {

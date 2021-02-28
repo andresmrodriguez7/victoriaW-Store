@@ -1,8 +1,13 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
 body {
-    background-color: rgba(252, 210, 192, 0.7);
+    background-color: rgba(255, 129, 124, 0.5);
     margin: 0;
+}
+
+.blog-footer {
+    border-top: 0!important;
+    background-color: #ffbfbd!important;
 }
 
 .blog-header-logo {
@@ -12,12 +17,16 @@ body {
 }
 
 .membrete {
+    .logotext {
+        text-decoration: none;
+        color: black;
+    }
     justify-content: center!important;
     margin: 0;
 }
 
 .blog-header-logo:hover {
-    text-decoration: none;
+    text-shadow: 0 0 30px #fff;
 }
 
 #login-top {
@@ -122,6 +131,25 @@ h6 {
     }
 }
 
+.col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    p {
+        margin-right: .75rem;
+        margin-left: .75rem;
+    }
+    h2 {
+        font-weight: 400;
+    }
+}
+
+.tip {
+    background-color: #fab89d;
+}
+
+
+/* rtl:begin:ignore */
+
 #social-bottom {
     display: flex;
     width: 100%;
@@ -156,7 +184,9 @@ h6 {
         }
     }
     #social-bottom {
-        display: none;
+        a {
+            display: none;
+        }
     }
     .h-md-250 {
         height: 250px;
